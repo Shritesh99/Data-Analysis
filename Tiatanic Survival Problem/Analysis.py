@@ -4,10 +4,10 @@ import numpy as np
 import pandas as pd
 
 # Importing the dataset
-train = pd.read_csv('all/train.csv')
+train = pd.read_csv('dataset/train.csv')
 train = train.dropna(subset=['Age','Embarked','Fare'])
-test = pd.read_csv('all/test.csv')
-test_result = pd.read_csv('all/gender_submission.csv')
+test = pd.read_csv('dataset/test.csv')
+test_result = pd.read_csv('dataset/gender_submission.csv')
 test = test.join(test_result['Survived'])
 test = test.dropna(subset=['Age','Embarked','Fare'])
 
