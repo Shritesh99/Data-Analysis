@@ -35,7 +35,7 @@ sc = StandardScaler()
 x_train = sc.fit_transform(x_train)
 x_test = sc.transform(x_test)
 
-classifier = RandomForestClassifier(n_estimators = 100, criterion = 'entropy')
+classifier = RandomForestClassifier(n_estimators = 20, criterion = 'entropy')
 classifier.fit(x_train, y_train)
 
 y_pred = classifier.predict(x_test)
