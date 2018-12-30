@@ -1,5 +1,7 @@
 # PUBG Finish Placement Prediction
 
+### Check out the Analysis [here](https://github.com/Shritesh99/Data-Analysis/blob/master/PUBG%20Finish%20Placement%20Prediction/Analysis.ipynb).
+
 ### Check out the dataset description [here](https://www.kaggle.com/c/pubg-finish-placement-prediction/data).
 
 #### Battle Royale-style video games have taken the world by storm. 100 players are dropped onto an island empty-handed and must explore, scavenge, and eliminate other players until only one is left standing, all while the play zone continues to shrink.
